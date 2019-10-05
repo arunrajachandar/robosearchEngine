@@ -4,6 +4,7 @@ class Card extends Component{
 
 	render(){
 			const {id,name,email}= this.props;
+
 		return (
 
 			<div className = 'tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
